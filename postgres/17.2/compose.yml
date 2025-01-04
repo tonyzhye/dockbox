@@ -21,7 +21,7 @@ services:
       timeout: 1s
       retries: 20
   pgadmin:
-    image: dpage/pgadmin4:5
+    image: dpage/pgadmin4:8
     depends_on:
       db:
         condition: service_healthy
