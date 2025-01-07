@@ -1,3 +1,5 @@
+include .env
+
 .EXPORT_ALL_VARIABLES:
 
 DEVBOX_ENGINE ?= ""
